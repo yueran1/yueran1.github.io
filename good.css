@@ -12,6 +12,8 @@ p{
 
 
 
+
+
 b{
 	margin-left: 1em;
 }
@@ -77,12 +79,14 @@ li{
 
 }
 #LeftPanel{
-	position: relative;
+	position: fixed;
 	float: left;
 	width: 16%;
 	height: 50em;
-	margin-top: 7em;
+	margin-top: 6.3em;
+	top: 0em;
 	background-color: #8b9bc3;
+	z-index: 0;
 	
 }
 
@@ -90,10 +94,19 @@ li{
 	position: relative;
 	float: right;
 	width: 84%;
-	margin-top:7em;
+	margin-top:6.3em;
 	background-color: #dfe3ee;
 	height: 50em;
+	top: 0em;
 	
 	
+
+}
+
+#year{
+	position:relative;
+	font-size: 80%;
+	margin-left: 2em;
+	bottom: 0em;
 
 }
