@@ -19,10 +19,14 @@ b{
 }
 
 
-h3{
+h3.TS.EDU{
 	margin-left:1em;
 	margin-top:1em;
-	color: #75482b;
+	color:antiquewhite;
+}
+
+#TS, #EDU, #Offer, #PDE {
+    color: #75482b;
 }
 
 h4{
@@ -123,3 +127,7 @@ li{
 
 }
 
+a.TOP
+{
+    color:gainsboro;
+}
