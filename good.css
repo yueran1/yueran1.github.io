@@ -53,15 +53,6 @@ li{
 	
 }
 
-#MingXingPian {
-    position: relative;
-    float: right;
-    width: 84%;
-    margin-top: 2.3em;
-    /*background-color: #dfe3ee;*/
-    
-    top: 0em;
-}
 
 #profile_pic{
 	float:left;
@@ -101,13 +92,23 @@ li{
 	
 }
 
+#MingXingPian {
+    position: relative;
+    float: left;
+    width: 84%;
+    margin-top: 2.3em;
+    /*background-color: #dfe3ee;*/
+    top: 0em;
+}
+
+
 #MainContent{
 	position: relative;
 	float: right;
 	width: 84%;
 	margin-top:0em;
 	background-color: #dfe3ee;
-	height: 80em;
+	height: 120em;
 	top: 0em;
 	
 	
