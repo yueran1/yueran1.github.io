@@ -34,8 +34,8 @@ h4{
 }
 
 li{
-	list-style-type: square
-	font-size: 80%;
+	list-style-type: square;
+	
 	text-align: left;
 	margin-right: 1em;
 }
@@ -43,7 +43,7 @@ li{
 #ProfileCover{
 	position: relative;
 	width: 100%;
-	height: 7em;
+	height: 10.6em;
 	background-color: #004b97;
 	font-family: "Times New Roman", Times, serif;
 	z-index: 1;
@@ -82,7 +82,7 @@ li{
 }
 #LeftPanel{
 	position: fixed;
-	float: left;
+	left: 0;
 	width: 16%;
 	height: 90em;
 	/*margin-top: 6.3em;*/
@@ -105,11 +105,11 @@ li{
 #MainContent{
 	position: relative;
 	float: right;
-	width: 84%;
+	margin-left:16%;
 	margin-top:0em;
 	background-color: #dfe3ee;
 	height: 140em;
-	top: 0em;
+	
 	
 	
 
