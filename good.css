@@ -97,7 +97,7 @@ li {
    
     
     width: 18em;
-    height: 90em;
+    height: 140em;
     /*margin-top: 6.3em;*/
     top: 0em;
     background-color: #8b9bc3;
@@ -116,7 +116,7 @@ li {
 
 #MainContent {
     position: relative;
-    width: 80%;
+    width: 75%;
     margin-left: 18em;
     margin-top: 0em;
     background-color: #dfe3ee;
