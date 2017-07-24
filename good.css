@@ -35,7 +35,7 @@ h4{
 
 li{
 	list-style-type: square;
-	
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-align: left;
 	margin-right: 1em;
 }
