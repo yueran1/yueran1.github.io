@@ -2,76 +2,112 @@
 <html>
 <head>
 <link type="text/css" rel="stylesheet" href="good.css"/>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <title>Sun Yue Ran</title>
 </head>
 
 <body>
 	<div id="ProfileCover">
-		<img id="profile_pic" src="profile.JPG" alt="profile_pic" />
+        
+		<img style="height:150px; width:170px;" id="profile_pic" src="profile.JPG" alt="profile_pic" /> 
 		
 		<span id="name"><b>Sun Yue Ran </b></span>
 		<a href="mailto:tonysunyueran@gmail.com"> <span id="email">tonysunyueran@gmail.com</span></a>
 		
 	</div>
 
-	<div id="LeftPanel">
+	<div class="col-md-4" id="LeftPanel">
+        <br><br><br><br><br><br><br>
 		<h4> Intro </h4>
 		<ul>
-			<li>Student at University of Alberta</li>
-			<li>Studies Comp.sc.</li>
+			<li>Graduated from <br>
+            University of Alberta</li>
+			<li>Computer Science <br> specialization</li>
 			<li>Lives in Richmond, BC</li>
 			<li>From Zhengzhou, China</li>	
 		</ul>
-	</div>
 
+        
+            
+    </div>
+    
+        <div class="jumbotron" id="MingXingPian">
+            <div class="col-xs-6" style="width:22%!important; min-width:260px; border-color:#F5a50a;">
+                <div class="thumbnail">
+
+                    <img src="profile.JPG" width="240" height="360" alt="Sample Image">
+
+                    <div class="caption" style="word-wrap: break-word;">
+                        <h3>Sun Yue Ran-孙悦然</h3>
+                        <p><span class="glyphicon glyphicon-phone"></span>: 604-363-0718</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span>: tonysunyueran@gmail.com</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <p><span class="glyphicon glyphicon-circle-arrow-right"></span> <a class="TOP" href="#TS">TECHNOLOGY SUMMARY</a></p><br>
+                <p><span class="glyphicon glyphicon-circle-arrow-right"></span> <a class="TOP" href="#EDU">EDUCATION</a></p><br>
+                <p><span class="glyphicon glyphicon-circle-arrow-right"></span> <a class="TOP" href="#Offer">WHAT I CAN OFFER</a></p><br>
+                <p><span class="glyphicon glyphicon-circle-arrow-right"></span> <a class="TOP" href="#PDE">PROJECT  DEVELOPMENT  EXPERIENCE</a></p>
+            </div>
+        </div>
 	<div id="MainContent">
-		<h3>TECHNOLOGY SUMMARY</h3>
-		<p><b>Programing: </b>Python, Java, C, C++, JavaScript, HTML5, CSS, PHP, HTTP, SQL, Prolog, Lisp</p>
-		<p><b>Software: </b>Matlab,  Emacs, Android Studio, Photoshop, Eclipse, github, MS 				Office Suite</p>
-		<p><b>Systems: </b>Linux, Windows</p>
+        
+       
+        <div class="col-md-8">
 
-		<h3>EDUCATION</h3>
-		<span id='year'>September 2012 -January 2017</span></br>
-		<p>University of Alberta -- Edmonton|<strong>Computing Science, BSc with Specialization</strong></p>
+		    <h3 id="TS">TECHNOLOGY SUMMARY</h3>
+		    <p><b>Programing: </b>Python, Java, C, C++, JavaScript, HTML5, CSS, PHP, HTTP, SQL, Prolog, Lisp</p>
+		    <p><b>Software: </b>Matlab,  Emacs, Android Studio, Photoshop, Eclipse, github, MS 				Office Suite</p>
+		    <p><b>Systems: </b>Linux, Windows</p>
+
+		    <h3 id="EDU">EDUCATION</h3>
+		    <span id='year'>September 2012 -January 2017</span></br>
+		    <p>University of Alberta -- Edmonton|<strong>Computing Science, BSc with Specialization</strong></p>
 
 
-		<h3>WHAT I CAN OFFER</h3>
-		<ul class='offer'>
-		<li>Software Development </li>
-		<li>Webpage Development</li>
+		    <h3 id="Offer">WHAT I CAN OFFER</h3>
+		    <ul class='offer'>
+		    <li>Software Development </li>
+		    <li>Webpage Development</li>
 
-		<li>Testing & Documentation </li>
+		    <li>Testing & Documentation </li>
 
-		<li>Data Analysing </li>
-		<li>Digital Image Processing </li>
-		</ul>
+		    <li>Data Analysing </li>
+		    <li>Digital Image Processing </li>
+		    </ul>
 		
-		<h3>PROJECT  DEVELOPMENT  EXPERIENCE</h3>
-		<b>Fuel Tracking Application</b>
-		<p>Using Android Studio with java to design and implement a simple fuel 		consumption tracking application, which maintains a basic log of fuel used for a 			particular car. Every log entry can shows the date, station, odometer, fuel grade, 			fuel amount and fuel unit cost. It is convenient for customer to check their Fuel 			Diary.
-		</p>
+		    <h3 id="PDE">PROJECT  DEVELOPMENT  EXPERIENCE</h3>
+		    <b>Fuel Tracking Application</b>
+		    <p>Using Android Studio with java to design and implement a simple fuel 		consumption tracking application, which maintains a basic log of fuel used for a 			particular car. Every log entry can shows the date, station, odometer, fuel grade, 			fuel amount and fuel unit cost. It is convenient for customer to check their Fuel 			Diary.
+		    </p>
 
-		<b>POKEMON Bid Application</b>
-		<p>Using Android Studio with Java to create a Pokemon bid application. User can 		uses our borrowing application to arrange trades of their Pokémon. Owners can put 			their properties on the list and set bids on their properties to earn 			money.Borrowers can pay the bids and borrow items that owners put on the list. 
+		    <b>POKEMON Bid Application</b>
+		    <p>Using Android Studio with Java to create a Pokemon bid application. User can 		uses our borrowing application to arrange trades of their Pokémon. Owners can put 			their properties on the list and set bids on their properties to earn 			money.Borrowers can pay the bids and borrow items that owners put on the list. 
 
-		</p>
-		<p>We have putted technology of Elasticsearch and Google Map into this 			application. Elasticsearch allow our users able to register their own account; at 			the same time, they can use Elasticsearch to search the Pokemon they are 			interested; Google map allow users to set their trading location.
+		    </p>
+		    <p>We have putted technology of Elasticsearch and Google Map into this 			application. Elasticsearch allow our users able to register their own account; at 			the same time, they can use Elasticsearch to search the Pokemon they are 			interested; Google map allow users to set their trading location.
 
 
-		</p>
+		    </p>
 
-		<b>Online Photo Gallery</b>
-		<p>Using development language PHP to develop an online photo sharing system called 			Online Photo Gallery. This Web Page allow users who connected the network of 			University of Alberta be able to share their photos to other users. In addition, 			we use database searching technology SQL to allow users be able to search photo or 			other users they are interested.
+		    <b>Online Photo Gallery</b>
+		    <p>Using development language PHP to develop an online photo sharing system called 			Online Photo Gallery. This Web Page allow users who connected the network of 			University of Alberta be able to share their photos to other users. In addition, 			we use database searching technology SQL to allow users be able to search photo or 			other users they are interested.
  
 
-		</p>
+		    </p>
 		
-		<b>SSR Distributed Social NetWorking</b>
-                <p>Using Flask library in Python to develop the social NetWorking. The web is fundamentally interconnected and peer to peer.  If other social networks came up with an API we could link between them and use the social network we wanted. Furthermore we might gain some autonomy. This blogging/social network platform will allow the importing of other sources of posts (github, twitter, etc.) as well allow the distributing sharing of posts and content. User  sitting on one server can aggregate posts of their friends on other servers.</br> Here is the link <a href="http://ssrapptest1.herokuapp.com">http://ssrapptest1.herokuapp.com</a></p>
-                <b>Machine Learning Project --Otto Group Product Classification Challenge</b>
-                <p>This project is from the competition of Kaggle, our purpose is building the predictive model to distinguish between main product categories of Otto Group products. Firstly, we are using Gradient boosting trees, Gradient boosting logistic regression, Neural network, Random forest and linear discriminant analysis to build stacking models in order to classify a dataset with 93 features for more than 200,000 products.  Secondly, we use folds for train dataset to predict the stacking models. Thirdly, we use calibration and model ensemble technique to minimize the logloss. Finally, our lightweight model achieved a logloss of 0.42593, and our team’s rank is in top 8% for this Kaggle competition.</p>
+		    <b>SSR Distributed Social NetWorking</b>
+                    <p>Using Flask library in Python to develop the social NetWorking. The web is fundamentally interconnected and peer to peer.  If other social networks came up with an API we could link between them and use the social network we wanted. Furthermore we might gain some autonomy. This blogging/social network platform will allow the importing of other sources of posts (github, twitter, etc.) as well allow the distributing sharing of posts and content. User  sitting on one server can aggregate posts of their friends on other servers.</br> Here is the link <a href="http://ssrapptest1.herokuapp.com">http://ssrapptest1.herokuapp.com</a></p>
+                    <b>Machine Learning Project --Otto Group Product Classification Challenge</b>
+                    <p>This project is from the competition of Kaggle, our purpose is building the predictive model to distinguish between main product categories of Otto Group products. Firstly, we are using Gradient boosting trees, Gradient boosting logistic regression, Neural network, Random forest and linear discriminant analysis to build stacking models in order to classify a dataset with 93 features for more than 200,000 products.  Secondly, we use folds for train dataset to predict the stacking models. Thirdly, we use calibration and model ensemble technique to minimize the logloss. Finally, our lightweight model achieved a logloss of 0.42593, and our team’s rank is in top 8% for this Kaggle competition.</p>
 	
-	</div>
+	    </div>
+     </div>
 </body>
 
 </html>
