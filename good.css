@@ -58,6 +58,7 @@ li {
 	height: 10.6em;
 	background-color: #004b97;
 	font-family: "Times New Roman", Times, serif;
+	/*margin-bottom: 10px;*/
 	z-index: 1;
 	top: 0em;
     opacity: 1;
@@ -96,9 +97,11 @@ li {
     position: fixed;
    
     
-    width: 18em;
+	/*width: 18em;*/
+	width:30%;
     height: 140em;
-    /*margin-top: 6.3em;*/
+	/*margin-top: 6.3em;*/
+	margin-right: 10px;
     top: 0em;
     background-color: #8b9bc3;
     z-index: 0;
@@ -109,14 +112,14 @@ li {
     float: left;
     width: 100%;
     margin-top: 2.3em;
-    
+    font-style: justify;
     top: 0em;
 }
 
 
 #MainContent {
     position: relative;
-    width: 75%;
+    width: 100%;
     margin-left: 18em;
     margin-top: 0em;
     background-color: #dfe3ee;
