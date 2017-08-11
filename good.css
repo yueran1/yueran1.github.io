@@ -66,6 +66,16 @@ li {
 	
 }
 
+#nav-banner{
+	height: 70px;
+	background-color: rosybrown;
+}
+
+#navbar{
+	
+	
+}
+
 
 #profile_pic{
 	float:left;
@@ -111,9 +121,17 @@ li {
     position: relative;
     float: left;
     width: 100%;
-    margin-top: 2.3em;
+	/*margin-top: 2.3em;*/
+	margin-bottom: 2px;
     font-style: justify;
     top: 0em;
+}
+
+#resume{
+	position: relative;
+	margin-top: 2px;
+	float:left;
+
 }
 
 
