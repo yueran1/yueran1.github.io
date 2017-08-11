@@ -37,7 +37,7 @@ h4{
 }
 
 li {
-    list-style-type: square;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*font-size:1vw;*/
     text-align: left;
@@ -69,6 +69,11 @@ li {
 #nav-banner{
 	height: 70px;
 	background-color: rosybrown;
+}
+
+{
+	list-style-type: none;
+
 }
 
 #navbar{
