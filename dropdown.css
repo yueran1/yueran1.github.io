@@ -1,0 +1,64 @@
+
+
+/*set css position property to 'relative'*/
+.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background:red;
+}
+
+.dropdown li {
+  display: block;
+  position: relative;
+  float: left;
+  background: red;
+}
+
+
+/*The css to hide sub menus*/
+
+li .dropdown { display: none; }
+
+.dropdown li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.dropdown li a:hover { background: #2c3e50; }
+
+
+/*Displaying dropdown menu when hover*/
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+
+/*Make dropdown rows all in one column*/
+li:hover li { float: none; }
+
+li:hover a { background: blue; }
+
+li:hover li a:hover { background:orange; }
+
+.main-navigation li ul li { border-top: 0; }
+
+
+/* make new level drop down to the left*/
+.dropdown .dropdown .dropdown {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
