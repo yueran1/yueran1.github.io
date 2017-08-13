@@ -53,7 +53,7 @@ h4{
 
 #ProfileCover{
 	position: relative;
-	width: 100%;
+	width: 128%;
    
 	height: 10.6em;
 	background-color: #004b97;
@@ -72,11 +72,6 @@ h4{
 }
 
 
-
-#navbar{
-	
-	
-}
 
 
 #profile_pic{
@@ -106,13 +101,13 @@ h4{
 
 }
 #LeftPanel {
-	position: fixed;
+	position: absolute;
 	float: left;
    
     
 	/*width: 18em;*/
 	width:30%;
-	height: 140em;
+	height: 150em;
 	
 	/*margin-top: 6.3em;*/
 	
@@ -145,7 +140,7 @@ h4{
     margin-left: 18em;
     margin-top: 0em;
     background-color: #dfe3ee;
-	height: 140em;
+	height: 100%;
 	
 }
 
@@ -222,6 +217,10 @@ li:hover li a:hover{background: #2c3e50;}
   display: table; /* 2 */
 }
 
+.under-cover{
+
+	height: 140em;
+}
 
 
 
