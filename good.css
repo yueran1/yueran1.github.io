@@ -36,15 +36,7 @@ h4{
 
 }
 
-.left-list li{
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*font-size:1vw;*/
-    text-align: left;
-    margin-right: 1em;
-    font-size:1vw;
-    
-}
+
 
 .left-list a{
     
@@ -112,6 +104,25 @@ h4{
 	color:#dfe3ee
 
 }
+
+.left-list li{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-size:1vw;*/
+    text-align: left;
+    margin-right: 1em;
+    font-size:1.5vw;
+    
+}
+
+a.TOP
+{
+    color:gainsboro;
+    font-size:1.5vw;
+}
+
+
+
 #LeftPanel {
 	position: absolute;
 	float: left;
@@ -166,12 +177,6 @@ h4{
 	margin-left: 2em;
 	bottom: 0em;
 
-}
-
-a.TOP
-{
-    color:gainsboro;
-    font-size:1vw;
 }
 
 
