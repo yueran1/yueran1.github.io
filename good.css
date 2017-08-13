@@ -36,7 +36,7 @@ h4{
 
 }
 
-li {
+.left-list li {
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*font-size:1vw;*/
@@ -71,10 +71,7 @@ li {
 	background-color: rosybrown;
 }
 
-{
-	list-style-type: none;
 
-}
 
 #navbar{
 	
@@ -164,3 +161,67 @@ a.TOP
 {
     color:gainsboro;
 }
+
+
+
+/*Navigation part*/
+/*Set CSS postion property to relative*/
+.dropdown{
+	list-style:none;
+	padding:0;
+	margin:0;
+	background:#1bc2a2;
+
+}
+
+.dropdown li{
+	display: block;
+	position:relative;
+	float:left;
+	background: #1bc2a2;
+
+}
+
+/*The CSS to hide sub menus*/
+li .dropdown{
+	display: none;
+
+}
+
+.dropdown li a{
+	display: block;
+	/*this padding make space between every li*/
+	padding: 1em;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #fff;
+
+}
+
+.dropdown li a:hover{background: #2c3e50;}
+
+/*Dislay the dropdown menu on hover*/
+li:hover > .dropdown{
+	display: block;
+	position: absolute;
+
+}
+
+li:hover li{float: none;}
+li:hover a{background: #1bc2a2;}
+li:hover li a:hover{background: #2c3e50;}
+
+.dropdown .dropdown .dropdown {
+  left: 100%;
+  top: 0;
+}
+
+.dropdown:before,
+.dropdown:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+
+
+

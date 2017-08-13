@@ -15,12 +15,36 @@
 
 		<img style="height:150px; width:170px;" id="profile_pic" src="profile.JPG" alt="profile_pic" /> 
         
-        <div>
+        
+       
+        
+        <div class="nav-dropdown">
 
             <span id="name"><b>Sun Yue Ran </b></span>
+            
+            
+             <ul class="dropdown">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Main Content<span class="caret"></a>
+                    <ul class="dropdown">
+                        <li><a href="#TS">Technology Summary</a></li>
+                        <li><a href="#EDU">Education</a></li>
+                        <li><a href="Offer">What I CAN OFFER </span></a></li>
+                        <li><a href="#">Third level <span class="caret"></a></span>
+                        	<ul class="dropdown">
+                        		<li><a href="#PDE">Project development experience</a></li>
+                        	</ul>
+                        
+                        
+                        </li>
+                            
+                    </ul>
+                </li>
+        
+</ul>
         </div>
 
-        <div id="nav-banner">
+        <!--<div id="nav-banner">
             <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active">
@@ -32,7 +56,7 @@
                                 dropdown
                             
                                 <span class="caret"></span>
-                                <!--put an arrow at here-->
+                                
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -62,8 +86,9 @@
                         </li>
                     </ul>
             </div>
-        </div>
-
+        </div>-->
+        
+        
         <div>
 		    <a href="mailto:tonysunyueran@gmail.com"> <span id="email">tonysunyueran@gmail.com</span></a>
 		</div>
@@ -76,7 +101,7 @@
             <br><br><br><br><br><br><br>
             <h3> Intro </h3>
             <div id="intro">
-                <ul>
+                <ul class="left-list">
                     <li>
                         Graduated from <br>
                         University of Alberta
@@ -125,8 +150,12 @@
             </div>
 
             <div class="col-md-8" id="resume">
+            
+            
+            
 
-                 <div class="dropdown">
+
+                 <div class="dropdown-button">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu">
