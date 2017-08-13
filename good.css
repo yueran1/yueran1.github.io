@@ -36,12 +36,23 @@ h4{
 
 }
 
-.left-list li {
+.left-list li{
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*font-size:1vw;*/
     text-align: left;
     margin-right: 1em;
+    font-size:1vw;
+    
+}
+
+.left-list a{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-size:1vw;*/
+    text-align: left;
+    margin-right: 1em;
+    
 }
 
 #intro {
@@ -107,15 +118,28 @@ h4{
    
     
 	/*width: 18em;*/
-	width:17%;
-	height: 130em;
+	width:28%;
+	height: 150em;
 	
 	/*margin-top: 6.3em;*/
 	
     top: 0em;
+    margin-top:0em;
     background-color: #8b9bc3;
     z-index: 0;
 }
+
+
+#MainContent {
+    position: absolute;
+    width: 83%;
+    margin-left: 28%;
+    margin-top: 0em;
+    background-color: #dfe3ee;
+	height: 140em;
+	
+}
+
 
 #MingXingPian {
     position: relative;
@@ -135,15 +159,6 @@ h4{
 }
 
 
-#MainContent {
-    position: absolute;
-    width: 83%;
-    margin-left: 17%;
-    margin-top: 0em;
-    background-color: #dfe3ee;
-	height: 120em;
-	
-}
 
 #year{
 	position:relative;
@@ -156,6 +171,7 @@ h4{
 a.TOP
 {
     color:gainsboro;
+    font-size:1vw;
 }
 
 
