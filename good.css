@@ -111,14 +111,14 @@ h4{
     /*font-size:1vw;*/
     text-align: left;
     margin-right: 1em;
-    font-size:1.5vw;
+    font-size:0.9vw;
     
 }
 
-a.TOP
-{
-    color:gainsboro;
-    font-size:1.5vw;
+a.TOP {
+    color: gainsboro;
+    font-size: 0.9vw;
+    transform: scale(1.2);
 }
 
 
@@ -129,7 +129,7 @@ a.TOP
    
     
 	/*width: 18em;*/
-	width:28%;
+	width:20%;
 	height: 150em;
 	
 	/*margin-top: 6.3em;*/
@@ -143,8 +143,8 @@ a.TOP
 
 #MainContent {
     position: absolute;
-    width: 72%;
-    margin-left: 28%;
+    width: 80%;
+    margin-left: 20%;
     margin-top: 0em;
     background-color: #dfe3ee;
 	height: 140em;
@@ -183,21 +183,21 @@ a.TOP
 
 /*Navigation part*/
 /*Set CSS postion property to relative*/
-.dropdown{
-	list-style:none;
-	padding:0;
-	margin:0;
-	background:#1bc2a2;
-
+.dropdown {
+    list-style: none;
+    
+    padding: 0;
+    margin: 0;
+    background: #42364C;
+    box-shadow: 10px 10px;
 }
 
-.dropdown li{
-	display: block;
-	position:relative;
-	float:left;
-	background: #1bc2a2;
-
-}
+    .dropdown li {
+        display: block;
+        position: relative;
+        float: left;
+        background: #42364C;
+    }
 
 /*The CSS to hide sub menus*/
 li .dropdown{
@@ -215,7 +215,9 @@ li .dropdown{
 
 }
 
-.dropdown li a:hover{background: #2c3e50;}
+    .dropdown li a:hover {
+        background: #42364C;
+    }
 
 /*Dislay the dropdown menu on hover*/
 li:hover > .dropdown{
@@ -225,7 +227,9 @@ li:hover > .dropdown{
 }
 
 li:hover li{float: none;}
-li:hover a{background: #1bc2a2;}
+li:hover a {
+    background: #42364C;
+}
 li:hover li a:hover{background: #2c3e50;}
 
 .dropdown .dropdown .dropdown {
@@ -239,6 +243,7 @@ li:hover li a:hover{background: #2c3e50;}
   display: table; /* 2 */
 }
 
+/*Special effect*/
 
 
 
