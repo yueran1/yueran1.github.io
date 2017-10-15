@@ -26,6 +26,7 @@ h3.TS.EDU{
 
 #TS, #EDU, #Offer, #PDE {
     color: #75482b;
+    text-decoration: none;
 }
 
 h4{
@@ -38,14 +39,6 @@ h4{
 
 
 
-.left-list a{
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*font-size:1vw;*/
-    text-align: left;
-    margin-right: 1em;
-    
-}
 
 #intro {
     width: 100%;
@@ -119,7 +112,14 @@ a.TOP {
     color: gainsboro;
     font-size: 0.9vw;
     transform: scale(1.2);
+    text-decoration: none;
 }
+
+    a.TOP:hover {
+        color: #0D86AD;
+        text-decoration: none;
+    }
+
 
 
 
@@ -229,6 +229,7 @@ li:hover > .dropdown{
 li:hover li{float: none;}
 li:hover a {
     background: #42364C;
+    text-decoration:none;
 }
 li:hover li a:hover{background: #2c3e50;}
 
