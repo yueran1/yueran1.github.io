@@ -130,7 +130,7 @@ a.TOP {
     
 	/*width: 18em;*/
 	width:20%;
-	height: 150em;
+	height: 160em;
 	
 	/*margin-top: 6.3em;*/
 	
@@ -147,7 +147,18 @@ a.TOP {
     margin-left: 20%;
     margin-top: 0em;
     background-color: #dfe3ee;
-	height: 140em;
+	height: 150em;
+	
+}
+
+.intro{
+
+	background-color: rgb(232, 235, 209);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+	font-size: 120%;
+	padding:20px;
+	margin-bottom: 10px;
+	
 	
 }
 
@@ -189,7 +200,7 @@ a.TOP {
     padding: 0;
     margin: 0;
     background: #42364C;
-    box-shadow: 10px 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
 }
 
     .dropdown li {
