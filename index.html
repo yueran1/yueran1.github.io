@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<link type="text/css" rel="stylesheet" href="good.css"/>
 <link type="text/css" rel="stylesheet" href="ec-css-hover.css" />
+<link type="text/css" rel="stylesheet" href="good.css"/>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Latest compiled and minified CSS -->
@@ -10,6 +11,7 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="timer.jsx"></script>
 <title>Sun Yue Ran</title>
 
     <style>
@@ -108,8 +110,8 @@
                 
                 <div >
                     <div class="jumbotron" id="MingXingPian">
-                        <div class="col-xs-8" style="width:23%!important; min-width:300px; border-color:#F5a50a;">
-                            <div class="thumbnail">
+                        <div class="col-xs-4" style="width:23%!important; margin-right:0; float:left; border-color:red;">
+                            <div class="thumbnail" >
 
                                 <img src="profile.JPG" width="240" height="360" alt="Sample Image">
 
@@ -122,9 +124,26 @@
 
                                 </div>
                             </div>
+
+                            
+                            
                         </div>
+
+                        <div class="countdown" style="float:right;margin-right:300px; ">
+                            <span id="effect" class="ech-pulse-shrink"style="text-align: center; font-size: 60px;">Time passed since graduation:</span><br>
+                            <span id="demo" class="ech-shake-time ech-infinite" style="margin-left:90px;text-align: center; font-size: 60px; cursor: pointer;
+                            text-decoration: none; display: inline-block; color: #333; min-width: 80px;padding: 0 10px;"></span>
+                            
+                            
+
+                        </div>
+
                         
+                        
+
                     </div>
+                    
+                    
                 </div>
 
                 <!--The main intro content start at here-->
@@ -137,7 +156,7 @@
                     <p><b>Systems: </b>Linux, Windows</p>
 
                     <h3 id="EDU">EDUCATION</h3>
-                    <span id='year'>September 2012 -January 2017</span></br>
+                    <span id='year'>September 2012 -June 2017</span></br>
                     <p>University of Alberta -- Edmonton|<strong>Computing Science, BSc with Specialization</strong></p>
 
 
