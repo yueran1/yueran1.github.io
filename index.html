@@ -1,246 +1,158 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-<link type="text/css" rel="stylesheet" href="ec-css-hover.css" />
-<link type="text/css" rel="stylesheet" href="good.css"/>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skill_set.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="timer.jsx"></script>
-<title>Sun Yue Ran</title>
-
-    <style>
-
-        .under-cover #effect {
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            color: #333;
-            min-width: 80px;
-            padding: 0 10px;
-            margin: 10px;
-        }
-    </style>
 </head>
 
+
 <body>
-	<div id="ProfileCover">
-        
-
-		<img style="height:150px; width:170px;" id="profile_pic" src="profile.JPG" alt="profile_pic" /> 
-        
-        
-       
-        
-        <div class="nav-dropdown">
-
-                <span id="name"><b>Sun Yue Ran </b></span>
-                
-                
-                <ul class="dropdown">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Main Content<span class="caret"></span></a>
-                        <ul class="dropdown">
-                            <li><a href="#TS">Technology Summary</a></li>
-                            <li><a href="#EDU">Education</a></li>
-                            <li><a href="#Offer">What I CAN OFFER </a></li>
-                            <li><a href="#">Third level <i class="fa fa-caret-right"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="#PDE">Project development experience</a></li>
-                                </ul>
-                            
-                            
-                            </li>
-                                
-                        </ul>
-                    </li>
+    
+    <div class="sect sectOne">
+            <nav>
+                    <a href="index2.html">HOME</a>
+                    <a href="#subOne">ABOUT</a>
+                    <a href="#subTwo">SKILLS</a>
+                    <a href="#sectThree">CONTACT</a>
             
+            </nav>
+
+        <div class="main-name-div">
+            <h1 class="main-name">Tony Sun</h1>
+
+            <h2 class="welcome">Welcome to my world</h2>
+        </div>
+
+        
+        
+    </div>
+    <div class="subSection subOne" id="subOne">
+        <div class="about-div">
+                <div class="profile-div"><div class="user one"></div></div>
+                <div class="about-me">
+                    <h1>About Me</h1>
+                    <p>My name is Tony Sun. I graduated from University of Alberta with Bachelor of computer science degree in 2017
+        
+                    </p>
+                    
+                    <p>Live in Richmond BC, Love coding, ski and Basketball</p>
+                </div>
+        
+
+        </div>
+        
+        
+        
+
+    </div>
+    <div class="sect sectTwo" id="subTwo">
+            
+            <div id="skills" class="col-md-5 col-centered">
+                <div class="skillbar_div">
+                        <div class="skillbar clearfix " data-percent="100%">
+                                <div class="skillbar-title" style="background: #ec407a;"><span>Python</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">100%</div>
+                        </div>
+                                
+                        <div class="skillbar clearfix " data-percent="85%">
+                                <div class="skillbar-title" style="background: #ab47bc;"><span>PHP</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">85%</div>
+                        </div>
+
+                        <div class="skillbar clearfix " data-percent="85%">
+                                <div class="skillbar-title" style="background: #5c6bc0;"><span>MySQL</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">85%</div>
+                        </div>
+
+                        <div class="skillbar clearfix " data-percent="100%">
+                                <div class="skillbar-title" style="background: #66bb6a;"><span>HTML/CSS</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">100%</div>
+                        </div>
+
+                        <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title" style="background: #ffca; z-index:99;"><span>JavaScript</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">90%</div>
+                        </div>
+
+                        <div class="skillbar clearfix " data-percent="75%">
+                                <div class="skillbar-title" style="background: #ffca28;"><span>C++</span></div>
+                                <div class="skillbar-bar" style="background: #131313;"></div>
+                                <div class="skill-bar-percent">75%</div>
+                        </div>
+                                
+                                
+                                        
+            </div>
+                    
+        </div>
+         
+    </div>
+    <div class="subSection">
+        <div class="skill-div">
+                <h2>Technology Summary</h2>
+                <ul class='offer'>
+                        <li>Android Software Development with Java and Android Studio    </li>
+                        <li>Website Back End Development with PHP and WordPress, C# and Asp.net
+                        </li>
+    
+                        <li>Website Front End Development with HTML5/CSS3, JavaScript, Jquery
+                        </li>
+    
+                        <li>Website Debugging with Google Chrome </li>
+                        <li>Leadership, Teamwork
+                        </li>
+                        <li>Digital Image Processing </li>
                 </ul>
         </div>
 
-      
-        
-        
-        <div class="banner-right">
-            <a id="icon-top" href="https://www.facebook.com/yueran.sun"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
-            <a id="icon-top" href="https://www.linkedin.com/in/tony-sun-308485132/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
-            <a id="icon-top" href="https://www.instagram.com/dye_tou_"><i class="fa fa-instagram" style="font-size:36px"></i></a><br>
-		    <a id="icon-top" href="mailto:tonysunyueran@gmail.com"> <span id="email" class="ech-big">tonysunyueran@gmail.com</span></a>
-		</div>
-	</div>
 
 
-    <div class="under-cover">
-        
-            <div class="col-md-8" id="LeftPanel">
-                
-                <h3> Intro </h3>
-                <div id="intro">
-                    <ul class="left-list">
-                        <li>
-                            Graduated from <br>
-                            University of Alberta
-                        </li>
-                        <li>Computer Science <br> specialization</li>
-                        <li>Lives in Richmond, BC</li>
-                        <li>From Zhengzhou, China</li>
-                    </ul>
+    </div>
+    <!--<?php include('form_process.php'); ?>-->
+    <div class="sect sectThree" id="sectThree">
+        <div class="container">
+                <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                        <h3>Contact Me</h3>
+                        <h4>Contact us today, and get reply with in 24 hours!</h4>
+                        <fieldset>
+                                <input placeholder="Your name" type="text" name="name" value="Your full name" tabindex="1" required>
+                                <span class="error"><!--<?= $name_error?>--></span>
+                        </fieldset>
+                        <fieldset>
+                                <input placeholder="Your Email Address" type="email" name="email" value="Your Email" tabindex="2" required>
+                                <span class="error"><!--<?= $email_error?>--></span>
+                        </fieldset>
+                        <fieldset>
+                                <textarea placeholder="Type your Message Here..." tabindex="3" name="message" value="Message" required></textarea>
+                                
+                        </fieldset>
+                        <fieldset>
+                                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        </fieldset>
+                </form>
 
-                    <div class="col-md-12">
-                        <span class="glyphicon glyphicon-circle-arrow-right"></span> <span id="effect"class="ech-wobble-t"><a class="TOP" href="#TS">TECHNOLOGY SUMMARY</a></span><br>
-                        <span class="glyphicon glyphicon-circle-arrow-right"></span> <span id="effect" class="ech-wobble-c"><a class="TOP" href="#EDU">EDUCATION</a></span><br>
-                        <span class="glyphicon glyphicon-circle-arrow-right"></span> <span id="effect" class="ech-wobble-c"><a class="TOP" href="#Offer">WHAT I CAN OFFER</a></span><br>
-                        <span class="glyphicon glyphicon-circle-arrow-right"></span> <span id="effect" class="ech-wobble-b"><a class="TOP" href="#PDE">DEVELOPMENT EXPERIENCE</a></span>
-                    </div>
-                </div>
+        </div>
 
-                
-                    
-            </div>
-            
-
-            <div id="MainContent">
-
-                
-                
-                <div >
-                    <div class="jumbotron" id="MingXingPian">
-                        <div class="col-xs-8" style="width:23%!important; min-width:300px; border-color:#F5a50a;">
-                            <div class="thumbnail" >
-
-                                <img src="profile.JPG" width="240" height="360" alt="Sample Image">
-
-                                <div class="caption" style="word-wrap: break-word;">
-                                    <h3>Sun Yue Ran-孙悦然</h3>
-                                    <p><span class="glyphicon glyphicon-phone"></span>: 604-376-7939</p>
-                                    <p><span class="glyphicon glyphicon-envelope"></span>: tonysunyueran@gmail.com</p>
-
-
-
-                                </div>
-                            </div>
-
-                            
-                            
-                        </div>
-
-                        <div class="countdown" >
-                            <span id="effect" class="ech-flash"style="text-align: center;  min-width:500px;font-size: 40px;">Time passed since graduation:</span><br>
-                            <span id="demo" class="ech-shake-time" style="margin-left:20px;text-align: center; font-size: 40px; cursor: pointer;
-                            text-decoration: none; display: inline-block; color: #333; min-width:500px;padding: 0 10px;"></span>
-                            
-                            
-
-                        </div>
-
-                        
-                        
-
-                    </div>
-                    
-                    
-                </div>
-
-                <!--The main intro content start at here-->
-
-                <div class="col-md-8" id="resume">
-
-                    <span class="anchor" id="TS"></span>
-                    <h3 id="TS">TECHNOLOGY SUMMARY</h3>
-                    <p><b>Programing: </b>Python, Java, C, C++, C#, JavaScript, HTML5, CSS, PHP, HTTP, SQL, Prolog, Lisp</p>
-                    <p><b>Software: </b>Matlab,  Emacs, Android Studio, Photoshop, Eclipse, github, MS Office Suite, Godaddy</p>
-                    <p><b>Systems: </b>Linux, Windows</p>
-
-                    <span class="anchor" id="EDU"></span>
-                    <h3 id="EDU">EDUCATION</h3>
-                    <span id='year'>September 2012 -June 2017</span></br>
-                    <p>University of Alberta -- Edmonton|<strong>Computing Science, BSc with Specialization</strong></p>
-
-
-                    <span class="anchor" id="Offer"></span>
-
-                    <h3 id="Offer">WHAT I CAN OFFER</h3>
-                    <ul class='offer'>
-                    <li>Software Development </li>
-                    <li>Webpage Development</li>
-
-                    <li>Testing & Documentation </li>
-
-                    <li>Data Analysing </li>
-                    <li>Digital Image Processing </li>
-                    </ul>
-                
-                    <span class="anchor" id="PDE"></span>
-                    <h3 id="PDE">PROJECT  DEVELOPMENT  EXPERIENCE</h3>
-
-                    <b>Luxmore Group Realty Ltd website administrator</b>
-
-                   
-                    <div class="intro">
-                        <p>Helping Luxmore Group Realty Ltd to maintain and improve their asp.net websites which deployed
-                        on Godaddy. Using Visual Studio with C# and Css bootstraps to polish user interface and add more
-                        components and features to the website. Using MySql language to develop a user system which
-                        allow customer create their own account to leave comments and thoughts. At the same time, using
-                        Mysql create database system to make website owner be able to manage realty properties
-                        advertisements.</p>
-
-                    </div>
-                    
-
-                    <b>Fuel Tracking Application</b>
-
-                    
-                    <div class="intro">
-                        <p>Using Android Studio with java to design and implement a simple fuel 		consumption tracking application, which maintains a basic log of fuel used for a 			particular car. Every log entry can shows the date, station, odometer, fuel grade, 			fuel amount and fuel unit cost. It is convenient for customer to check their Fuel 			Diary.
-                        </p>
-                    </div>
-
-                    <b>POKEMON Bid Application</b>
-
-                    <div class="intro">
-                    <p>Using Android Studio with Java to create a Pokemon bid application. User can 		uses our borrowing application to arrange trades of their Pokémon. Owners can put 			their properties on the list and set bids on their properties to earn 			money.Borrowers can pay the bids and borrow items that owners put on the list. 
-
-                    </p>
-                    <p>We have putted technology of Elasticsearch and Google Map into this 			application. Elasticsearch allow our users able to register their own account; at 			the same time, they can use Elasticsearch to search the Pokemon they are 			interested; Google map allow users to set their trading location.
-
-
-                    </p>
-                    </div>
-
-                    <b>Online Photo Gallery</b>
-
-                    <div class="intro">
-                        <p>Using development language PHP to develop an online photo sharing system called 			Online Photo Gallery. This Web Page allow users who connected the network of 			University of Alberta be able to share their photos to other users. In addition, 			we use database searching technology SQL to allow users be able to search photo or 			other users they are interested.
-            
-
-                        </p>
-
-                    </div>
-                
-                    <b>SSR Distributed Social NetWorking</b>
-
-                    <div class="intro">
-                            <p>Using Flask library in Python to develop the social NetWorking. The web is fundamentally interconnected and peer to peer.  If other social networks came up with an API we could link between them and use the social network we wanted. Furthermore we might gain some autonomy. This blogging/social network platform will allow the importing of other sources of posts (github, twitter, etc.) as well allow the distributing sharing of posts and content. User  sitting on one server can aggregate posts of their friends on other servers.</br> Here is the link <a href="http://ssrapptest1.herokuapp.com">http://ssrapptest1.herokuapp.com</a></p>
-                            
-                    </div>    
-                            
-                    
-                    <b>Machine Learning Project --Otto Group Product Classification Challenge</b>
-                            
-                    <div class="intro">
-                    <p>This project is from the competition of Kaggle, our purpose is building the predictive model to distinguish between main product categories of Otto Group products. Firstly, we are using Gradient boosting trees, Gradient boosting logistic regression, Neural network, Random forest and linear discriminant analysis to build stacking models in order to classify a dataset with 93 features for more than 200,000 products.  Secondly, we use folds for train dataset to predict the stacking models. Thirdly, we use calibration and model ensemble technique to minimize the logloss. Finally, our lightweight model achieved a logloss of 0.42593, and our team’s rank is in top 8% for this Kaggle competition.</p>
-                     </div>
-                </div>
-            </div>
+    </div>
 
         
 
-     </div>
+    <script src="JS/skill_set.jsx"></script>
+    
 </body>
+
 
 </html>
